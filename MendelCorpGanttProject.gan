@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Creation de site web" company="MendelCorp" webLink="https://mendel-c.vercel.app/fr" view-date="2025-08-25" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.3.3311" locale="fr_FR">
+    <description><![CDATA[Créée en 2017 et basée à Abidjan, MendelCorp est une Société de Services en Ingénierie Informatique (SSII) spécialisée dans les Nouvelles Technologies de l’Information et de la Communication (NTIC). L’entreprise accompagne les organisations africaines dans leur transformation digitale en optimisant leurs processus et modernisant leurs infrastructures technologiques. Son siège, situé à Cocody, reflète une philosophie centrée sur l’innovation, la qualité des prestations et la satisfaction client.]]></description>
+    <view zooming-state="default:7" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="95" order="0"/>
+        <field id="tpd4" name="Date de début" width="127" order="1"/>
+        <field id="tpd5" name="Date de fin" width="128" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="resources"/>
+        <option id="taskLabelRight" value="length"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#33ffcc #66ff99 #99ff33 #ffcc33 #ff9966 #ff6666 #ff66ff #9999ff #99ffff #ffff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="206" order="0"/>
+        <field id="1" name="Rôle par défaut" width="91" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="0" mon="0" tue="0" wed="0" thu="0" fri="0" sat="0"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="29" uid="9112740ec142468291cba9220786c0a8" name="PHASE 1 : ANALYSE ET SPÉCIFICATIONS" color="#99ffff" meeting="false" start="2025-08-20" duration="7" complete="0" expand="false">
+            <task id="0" uid="2c8697c70495410c9a9dca54e846d13f" name="Analyse du contexte et étude de l'existant" meeting="false" start="2025-08-20" duration="7" complete="0" expand="true"/>
+            <task id="1" uid="138edb1d463a4bc390a54d1e98509fe7" name="Identification et définition des besoins" meeting="false" start="2025-08-20" duration="1" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="2" uid="4c20327d1b7049a1a2d8f7e359f7f29d" name="Analyse concurrentielle" meeting="false" start="2025-08-21" duration="3" complete="0" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="3" uid="07357fbc3a2f4e62865ee46f35b762f9" name="Rédaction du cahier des charges" meeting="false" start="2025-08-24" duration="3" complete="0" expand="true">
+                <depend id="4" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="30" uid="baa33438c1de4291b7d293aa821d6796" name="PHASE 2 : CONCEPTION ET MODÉLISATION" color="#9999ff" meeting="false" start="2025-08-27" duration="14" complete="0" expand="true">
+            <task id="4" uid="2595dc9e01f54fa59e9599ceed633194" name="Modélisation UML complète" meeting="false" start="2025-08-27" duration="14" complete="0" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="5" uid="7e7ae71e011746bd844693938a77e550" name="Définition de l'architecture technique" meeting="false" start="2025-08-29" duration="5" complete="0" expand="true"/>
+            <task id="31" uid="79a2231709b54615b9e75bf6acc40d57" name="PHASE 3 : CONFIGURATION ENVIRONNEMENT" color="#ff66ff" meeting="false" start="2025-09-02" duration="5" complete="0" expand="false">
+                <task id="6" uid="fd722a2ad67e4f258fddabc7e10502b0" name="Setup développement et outils" meeting="false" start="2025-09-02" duration="4" complete="0" expand="true"/>
+                <task id="7" uid="284b96efe7954358bfd6d035f2f23c89" name="Configuration Next.js et MongoDB" meeting="false" start="2025-09-03" duration="4" complete="0" expand="true">
+                    <depend id="8" type="2" difference="0" hardness="Strong"/>
+                    <depend id="9" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+        </task>
+        <task id="32" uid="077605e54c8c41d1a0a7bf07d79e25fd" name="PHASE 4 : DÉVELOPPEMENT BACKEND" color="#ff6666" meeting="false" start="2025-09-07" duration="30" complete="0" expand="true">
+            <task id="8" uid="23693e286bc649d892b892c1b7d363da" name="Modèles de données et Conception base de données" meeting="false" start="2025-09-07" duration="2" complete="0" expand="true"/>
+            <task id="9" uid="bd83eaad928040b8800c5224e7af9f04" name="Configuration API Routes et Server Actions" meeting="false" start="2025-09-07" duration="30" complete="0" expand="true"/>
+            <task id="10" uid="5e0ce1a9c90c44c6bf97c57f0dae5c2e" name="Développement Système d'Authentification &amp; Sécurité" meeting="false" start="2025-09-09" duration="4" complete="0" expand="true">
+                <depend id="11" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="11" uid="00178ea5ab3c49339eb9934bd000043e" name="Intégration APIs externes (Resend et UploadThing)" meeting="false" start="2025-09-13" duration="3" complete="0" expand="true"/>
+        </task>
+        <task id="33" uid="07f02afc80f74f858103415191e8d7ed" name="PHASE 5 : DÉVELOPPEMENT FRONTEND" color="#ff6666" meeting="false" start="2025-09-14" duration="14" complete="0" expand="true">
+            <task id="12" uid="b6efd8e658d6413fa7c46b051c0a9025" name="Développement Interfaces Utilisateurs (Front-Office)" meeting="false" start="2025-09-14" duration="10" complete="0" expand="true"/>
+            <task id="13" uid="f555afc5b0f544fd95d02a229b9f03da" name="Implémentation Processus de Commande &amp; Panier" meeting="false" start="2025-09-18" duration="3" complete="0" expand="true">
+                <depend id="14" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="14" uid="31cffe4ef72e44bcb9bcb977dd0ebf3a" name="Développement Interface d'Administration (Back-Office)" meeting="false" start="2025-09-21" duration="7" complete="0" expand="true">
+                <depend id="15" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="34" uid="73a65fbfa3d4448e99410531c877da99" name="PHASE 6 : INTERFACE ADMINISTRATION BACKEND" color="#ff9966" meeting="false" start="2025-09-28" duration="22" complete="0" expand="true">
+            <task id="15" uid="ef8198b66dd144a6bb27054deb5e660f" name="Gestion produits et catégories" meeting="false" start="2025-09-28" duration="8" complete="0" expand="true">
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="16" uid="c0da15a20989434ebb5958d4d3968e8e" name="Gestion des stocks" meeting="false" start="2025-10-06" duration="6" complete="0" expand="true">
+                <depend id="17" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="17" uid="110ffb5b5fce4bacb0bca223460d3f98" name="Gestion commandes et utilisateurs" meeting="false" start="2025-10-12" duration="5" complete="0" expand="true">
+                <depend id="18" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="18" uid="f53707ee3eb742b68dcc4c07107cd453" name="Configuration et paramètres" meeting="false" start="2025-10-17" duration="3" complete="0" expand="true">
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="35" uid="39e2f25b8b8b4aa583cc6cd0400e9327" name="PHASE 7 : OPTIMISATIONS" color="#ffcc33" meeting="false" start="2025-10-20" duration="6" complete="0" expand="true">
+            <task id="19" uid="5ffebd2b8d1648cc8c80bd8b0c3aa37b" name="Internationalisation (FR/EN)" meeting="false" start="2025-10-20" duration="2" complete="0" expand="true">
+                <depend id="20" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="20" uid="c201f00ec9694e68a147e586d2bdad46" name="Performance, SEO et accessibilité" meeting="false" start="2025-10-22" duration="4" complete="0" expand="true">
+                <depend id="21" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="36" uid="1aaf1315fcd14f35b662759e983a0eca" name="PHASE 8 : TESTS ET VALIDATION" color="#99ff33" meeting="false" start="2025-10-26" duration="20" complete="0" expand="true">
+            <task id="21" uid="b96732169fd44edbb5c6cd8d319812f6" name="Tests unitaires et d'intégration" meeting="false" start="2025-10-26" duration="4" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="22" uid="99f41920d85543e598f4e753804facf7" name="Tests performance et sécurité" meeting="false" start="2025-10-30" duration="7" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="23" uid="99628fa264ef4aeea9503d2936f3c12b" name="Corrections et ajustements" meeting="false" start="2025-11-06" duration="9" complete="0" expand="true">
+                <depend id="24" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="37" uid="f8e9c60ac1364cff90e123ed483060ac" name="PHASE 9 : DÉPLOIEMENT" color="#66ff99" meeting="false" start="2025-11-15" duration="7" complete="0" expand="true">
+            <task id="24" uid="a8e0bd4d70834fd4a7e018074251bc76" name="Configuration et déploiement Vercel" meeting="false" start="2025-11-15" duration="3" complete="0" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" uid="7e2d84a71fcb4b328aa41df829270fb7" name="Tests production et veille" meeting="false" start="2025-11-18" duration="4" complete="0" expand="true">
+                <depend id="26" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="38" uid="8bd6846f45e14723bc6b62042ac8a60a" name="PHASE 10 : DOCUMENTATION" color="#33ffcc" meeting="false" start="2025-09-10" duration="87" complete="0" expand="true">
+            <task id="26" uid="faa8b1e5d8204fd086f1632c6bdbc67f" name="Documentation technique et guides" meeting="false" start="2025-11-22" duration="14" complete="0" expand="true"/>
+            <task id="27" uid="520cb04f1b7c4139a4b9111f0ad8edc2" name="Rédaction mémoire et formation" meeting="false" start="2025-09-10" duration="30" complete="0" expand="true"/>
+            <task id="28" uid="d6776b8422224d769fa10eca5e0c7ead" name="Préparation de la soutenance" meeting="false" start="2025-10-20" duration="21" complete="0" expand="true"/>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Dabo Ali" function="Default:1" contacts="contact@alidabo.site" phone="0710145864"/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="24" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="15" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="5" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="17" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="20" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="11" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="22" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="16" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="23" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="14" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="26" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="27" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="10" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="21" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="28" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="7" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="18" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="6" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="9" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="12" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="2" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="19" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="25" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="1" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="8" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+        <allocation task-id="4" resource-id="0" function="Default:1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>

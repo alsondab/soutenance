@@ -1,0 +1,15 @@
+# Fichiers temporaires Windows/Office
+~$*
+*.tmp
+*.temp
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Fichiers de sauvegarde
+*.bak
+*.swp
+*~
+
